@@ -1,0 +1,1033 @@
+body{
+    margin: 0px;
+    padding: none;
+    border: none;
+  background-color: #112b3c;
+    color: whitesmoke;
+    font-family: 'Roboto Serif', serif;
+      
+   
+}
+
+/********************nav*****************/
+
+.nav__header{
+    height: 60px;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #f66b0e;
+    color: white;
+    align-items: center;
+    position: fixed;
+
+
+
+    &__menu{
+        display:flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 15px;
+}
+}
+
+
+
+
+.nav__icon{
+    display: flex;
+    flex-direction: row;
+        gap: 10px;
+
+}
+
+a{
+    text-decoration: none;
+}
+.container-1{
+    height: 80vh;
+    background-image: url(/logistic-images/animated-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
+}
+.container-1__header{
+    display: hidden;
+    flex-direction: row;
+    justify-content: space-between;
+    height:3rem;
+    width: 100%;
+    
+    
+    align-items: center;
+
+    &__menu{
+        display:flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 15px;
+        color: #f66b0e;
+    
+    }
+
+    &__logo{
+        margin-left: 1rem;
+        color: #f66b0e;
+    }
+
+    &__icon{
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+          
+        &-3{
+            display: none;
+        }
+    }
+
+    
+}
+.icon-search{
+    height: 2rem;
+    margin-right: 4px;
+    border-radius: 100%;
+
+}
+.icon-shop{
+    height: 2rem;
+    border-radius: 100%;
+}
+
+h1{
+    margin: 0px
+}
+
+.container-1__main{
+    margin-top: 15vh;
+    margin-left: 15%;
+
+
+  &-heading-1{
+      font-size: 5rem;
+      color: #f66b0e;
+  }
+
+  &-heading-2{
+     font-size: 5rem;
+     color: #f66b0e;
+     }
+
+  &-heading-3{
+     font-size: 5rem;  
+     color: #f66b0e;
+      
+  }
+
+  &-6{
+    display: flex;
+    flex-direction: row;
+    border: gray;
+    height: 50px;
+    border-radius: 25px;
+    color: #205375;
+  }
+  &-button{
+      
+    color:black;
+    border-bottom-right-radius: 25px;
+    border-top-right-radius:25px;
+    border: none;
+    font-family:'Poppins', sans-serif;
+    font-size: 15px;
+    border: none;
+  }
+    
+}
+input:placeholder-shown{
+    font-family:'Poppins', sans-serif;
+    padding-left: 30px;
+    color: black;
+    font-size: 18px;
+}
+
+
+
+  
+
+
+/**********container-2*****************/
+
+.container-2{
+    display: flex;
+    flex-direction: row;
+
+    height: 30vh;
+    justify-content: space-around;
+    align-items: center;
+    color: #205375;
+
+    &__text-heading-1{
+        font-size: 3rem;
+        color: #f66b0e;
+    }
+
+    &__text-main{
+        &-1{font-size: 1.5rem;}
+        &-2{font-size: 1.5rem;}
+        &-3{font-size: 1.5rem;}
+        &-4{font-size: 1.5rem;}
+    }
+}
+
+h4{
+    margin: 5px;
+}
+
+.container-2__image-equi{
+    height: 12rem;
+    border-radius: 8px;
+    border-style: inset;
+    border: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.container_2-3_line{
+    size: 100em;
+    
+    border-style: inset;
+    width: 70%;
+    color: gold;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    border-radius: none;
+
+
+    
+}
+
+/**************container 3************/
+.container-3{
+    width: 100%;
+    height: auto;
+    color: whitesmoke;
+
+}
+.container-3__main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+
+    .storage{
+        margin-bottom: 10px;
+    }
+
+    &-card-1{
+          height: 38vh;
+          width: 30%;
+          border-radius: 12px;
+          background-color: blue;
+          display: flex;
+          flex-direction: column;
+
+          &_image{
+              background-color: #a7a9ac;
+              height: 40%;
+              width: 100%;
+              background-image: url(/logistic-images/bus.jpg);
+              background-repeat: no-repeat;
+              background-size: cover;
+             }
+
+             &_text{
+                align-self: center;
+                background-color: #f66b0e;
+                height: 60%;
+                width: 100%;
+                font-size: 1.3rem;
+        
+
+
+            &-1{
+                text-align: center;
+
+            }
+
+            &-2{
+            text-align: center;
+            }
+            &-3{
+                text-align: center;
+            }
+            &-4{
+                text-align: center;
+            }
+            &-5{
+                text-align: center;
+            }
+            &-6{
+                text-align: center;
+            }
+
+
+            }
+
+    }
+    &-card-2{
+        height: 38vh;
+        width: 30%;
+        border-radius: 8px;
+        background-color: blue;
+        display: flex;
+        flex-direction: column;
+
+
+        &_image{
+            background-color: #a7a9ac;
+            height: 40%;
+            width: 100%;
+            background-image: url(/logistic-images/download.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+
+            
+    }
+
+
+    &_text{
+        align-self: center;
+        background-color: #f66b0e;
+        height: 60%;
+        width: 100%;
+        font-size: 1.4rem;
+
+        &-1{
+            text-align: center;
+
+        }
+
+        &-2{
+        text-align: center;
+        }
+        &-3{
+            text-align: center;
+        }
+        &-4{
+            text-align: center;
+        }
+        &-5{
+            text-align: center;
+        }
+        &-6{
+            text-align: center;
+        }
+
+
+
+
+
+    }
+
+}
+
+    &-card-3{
+        height: 38vh;
+        width: 30%;
+        border-radius: 8px;
+        background-color: blue;
+        display: flex;
+        flex-direction: column;
+
+       
+        
+
+        &_image{
+            background-color: #a7a9ac;
+            height: 40%;
+            width: 100%;
+            background-image: url(/logistic-images/bus.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+    }
+
+       
+    &_text{
+        align-self: center;
+        background-color:#f66b0e;
+        height: 60%;
+        width: 100%;
+        font-size: 1.4rem;
+
+        &-1{
+            text-align: center;
+
+        }
+
+        &-2{
+        text-align: center;
+        }
+        &-3{
+            text-align: center;
+        }
+        &-4{
+            text-align: center;
+        }
+        &-5{
+            text-align: center;
+        }
+        &-6{
+            text-align: center;
+        }
+
+
+
+
+
+    }
+}
+}
+
+.container-3__main-card-1:hover{
+    height: 43vh;
+}
+.container-3__main-card-2:hover{
+    height: 43vh;
+}
+.container-3__main-card-3:hover{
+    height: 43vh;
+}
+
+.container-3__header{
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+   box-sizing: border-box;
+   color: #f66b0e;
+
+   &-text{
+       font-size: 1.4rem;
+   }
+}
+
+
+
+
+/**************************container 4****************/
+.FAQ{
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+.fleet_gallery{
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    color: #f66b0e;
+}
+.fleet-img{
+    height: 4rem;
+}
+
+.container-4{
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+
+    &__gallery{
+        height: auto;
+        margin-left:2%;
+        width: 45%;
+        background-color: #205375;
+        border-radius: 8px;
+        color: #112b3c;
+     
+
+        &__main{
+            display: grid;
+            grid-template-columns:  1fr 1fr 1fr; 
+            gap: 10px;
+            
+
+          
+
+    
+             }
+
+ 
+ 
+       }
+
+
+       &__FAQ{
+        width: 55%;
+        height: auto;
+        background-color:#f66b0e;
+        margin-right: 2%;
+        margin-left: 2%;
+        font-family: 'Source Code Pro',monospace;
+
+
+       }
+}
+
+     .container-4__FAQ__drop-down{
+         background-color:#205375;
+         border: solid 2px black ;
+         font-size: 1.7rem;
+         color: #112b3c ;
+
+         &_summary{
+             border: 2px solid #205375;
+             background-color: #205375;
+         }
+         &_main_list{
+             list-style-type: none;
+             padding-left: 0px;
+             padding-bottom: 0px;
+
+
+             &-1{
+                 padding-bottom: 10px;
+                 padding-left: 10px;
+                 
+
+                 &_i{
+                    padding-left: 10px;
+
+                 }
+                 &_ii{
+                    padding-left: 10px;
+
+                 }
+
+              &_iii{
+            
+                  padding-left: 5px;
+              }
+             }
+
+             &-2{
+                 padding-bottom: 20px;
+                 padding-left: 10px;
+             }
+             
+             &_color{
+                 background-color: #205375;
+             }
+            
+
+         }
+     }
+
+
+ /************************container 5**********************/
+ .footer__images{
+     height: 2rem;
+     vertical-align: center;
+     margin-right: 3%;
+ }
+
+
+ span{
+     font-size: 1.4rem;
+ }
+ .container-5{
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    color: #205375;
+
+
+    &__contact{
+        height: auto;
+    
+        width: 30%;
+
+
+        &-1{
+            font-size: 2rem;
+            color: #f66b0e;
+        }
+        &-2{
+            padding-bottom: 15px;
+        }
+        
+        &-3{
+            padding-bottom: 15px;
+        }
+        &-4{
+            padding-bottom: 15px;
+        }
+        &-5{
+            padding-bottom: 15px;
+        }
+    }
+
+    &__links{
+
+        height: auto;
+        width: 30%;
+
+         &-1{
+            font-size: 2rem;
+            color: #f66b0e;
+        }
+        &-2{
+            padding-bottom: 15px;
+        }
+        
+        &-3{
+            padding-bottom: 15px;
+        }
+        &-4{
+            padding-bottom: 15px;
+        }
+        &-5{
+            padding-bottom: 15px;
+        }
+
+
+    }
+
+    &__follow{
+        height: auto;
+        
+        width: 30%;
+
+
+        &-1{
+            font-size: 2rem;
+            color:#f66b0e;
+        }
+        &-2{
+            padding-bottom: 15px;
+        }
+        
+        &-3{
+            padding-bottom: 15px;
+        }
+        &-4{
+            padding-bottom: 15px;
+        }
+        &-5{
+            padding-bottom: 15px;
+        }
+    }
+}
+
+
+
+
+
+/**************footer***************/
+.footer{
+    text-align: center;
+    font-size: 1px;
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*************media query****************/
+
+@media (max-width:1200px)
+{
+    .container-1{
+        height: 80vh;
+    }
+
+    .container-3__main-card-1_text{
+        font-size: 1.25rem;
+    }
+    .container-3__main-card-2_text{
+        font-size: 1.25rem;
+    }
+    .container-3__main-card-3_text{
+        font-size: 1.25rem;
+    }
+}
+
+@media(max-width: 992px) {
+    .container-1{
+        height: 70vh;
+    }
+
+    .container-2{
+        justify-content: space-around;
+    }
+    .container-3__main-card-1_text{
+        font-size: 1.1rem;
+    }
+    .container-3__main-card-2_text{
+        font-size: 1.1rem;
+    }
+    .container-3__main-card-3_text{
+        font-size: 1.1rem;
+    }
+
+}
+
+@media(max-width:768px){
+    .container-1{
+        height: 70vh;
+    }
+    .container-2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 15px;
+        height: 25vh;
+
+        &__image-equi{ 
+            display: none;
+        }
+
+    }
+
+    .container-3{
+        height: 60vh;
+    }
+
+    .storage{
+        margin-top: 15%;
+    }
+    .container-3__main{
+        flex-direction: column;
+
+        &-card-1{
+            width: 100%;
+            flex-direction: row;
+            height: 20vh;
+    
+
+            &_image{
+                height: 100%;
+                background-repeat: round;
+            }
+            &_text{
+                height: 100%;
+                font-size: 1.4rem;
+            }
+        }
+        &-card-2{
+            width: 100%;
+            flex-direction: row;
+            height: 20vh;
+            &_image{
+                height: 100%;
+                background-repeat: round;
+            }
+            &_text{
+                height: 100%;
+                font-size: 1.4rem;
+            }
+        }
+        &-card-3{
+            width: 100%;
+            flex-direction: row;
+            height: 20vh;
+            &_image{
+                height: 100%;
+                background-repeat: round;
+            }
+            &_text{
+                height: 100%;
+                font-size: 1.4rem;
+            }
+            
+        }
+    }
+     
+.container-3__main-card-1:hover{
+    height: 20vh;
+}
+.container-3__main-card-2:hover{
+    height: 20vh;
+}
+.container-3__main-card-3:hover{
+    height: 20vh;
+}
+
+
+.container-4{
+    height: auto;
+    justify-content: center;
+    align-items:center;
+
+    &__FAQ{
+        width: 100%;
+        margin: 0px;
+        height: auto;
+    }
+}
+
+
+.container-4__gallery{
+    display: none;
+}
+
+
+
+
+
+  .container-5{
+      flex-direction: column;
+      height: auto;
+    
+
+      &__contact{
+          width: 100%;
+          height: auto;
+
+      }
+      &__links{
+        width: 100%;
+        height: auto;
+      }
+
+     &__follow{
+        width: 100%;
+        height: auto;
+     }
+
+
+
+  }
+
+
+
+}
+
+
+@media (max-width:576px){
+    .container-1{
+        height: auto;
+        background-color:midnightblue;
+        background-image: none;
+        background-size: cover;
+        background-position: center;
+        color: #a7a9ac;
+
+       
+
+        
+    .menu-icon{
+        height: 40px;
+        padding-top: 100px;
+        padding-right: 80px;
+        display: hidden;
+    }
+    .menu-items{
+        background-color: #a7a9ac;
+        list-style-type: none;
+        width: 65%;
+        color: midnightblue;
+    }
+        
+    }
+    .container-1__header{
+      flex-direction:row;
+      height:2rem;
+      display: hidden;
+
+
+
+      &__logo{
+          padding-top: 100px;
+          display: hidden;
+      }
+    
+    
+
+      &__menu{
+          display: none;
+      }
+
+      &__icon{
+          &-1{
+              display: none;
+          }
+          &-2{
+              display: none;
+          }
+          &-3{
+              display:hidden;
+          }
+      }
+      
+      }
+      .container-1__main{
+          margin-top: 5vh;
+          margin-left: 10%;
+      }
+           
+
+      .container-2{
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items: center;
+        gap: 15px;
+        height: auto;
+        color: #205375;
+
+
+        &__image-equi{ 
+            display: none;
+        }
+    }
+    .container-3{
+        height: auto;
+    }
+    .storage{
+        margin-top: 20%;
+    }
+    .container-3__main{
+        flex-direction: column;
+
+        &-card-1{
+            width: 100%;
+            flex-direction: row;
+            height: auto;
+    
+
+            &_image{
+                height: 100%;
+                background-repeat: round;
+            }
+            &_text{
+                height: 100%;
+                font-size: 1.2rem;
+            }
+        }
+        &-card-2{
+            width: 100%;
+            flex-direction: row;
+            height: auto;
+            &_image{
+                height: 100%;
+                background-repeat: round;
+            }
+            &_text{
+                height: 100%;
+                font-size: 1.2rem;
+    
+            }
+        }
+        &-card-3{
+            width: 100%;
+            flex-direction: row;
+            height: auto;
+            &_image{
+                height: 100%;
+                background-repeat: round;
+            }
+            &_text{
+                height: 100%;
+                font-size: 1.2rem;
+            }
+            
+        }
+    }
+     
+.container-3__main-card-1:hover{
+    height: 20vh;
+}
+.container-3__main-card-2:hover{
+    height: 20vh;
+}
+.container-3__main-card-3:hover{
+    height: 20vh;
+}
+
+
+
+
+
+.container-4{
+    height: auto;
+    justify-content: center;
+    align-items:center;
+
+    &__FAQ{
+        width: 100%;
+        margin: 0px;
+        height: auto;
+    }
+}
+
+
+.container-4__gallery{
+    display: none;
+}
+
+
+
+
+
+.container-5{
+    flex-direction: column;
+    height: auto;
+  
+
+    &__contact{
+        width: 100%;
+        height: auto;
+
+    }
+    &__links{
+      width: 100%;
+      height: auto;
+    }
+
+   &__follow{
+      width: 100%;
+      height: auto;
+   }
+
+
+
+}
+
+    }
+    
