@@ -17,6 +17,7 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  Gap: 10px;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
@@ -44,6 +45,7 @@ body {
       -ms-flex-pack: justify;
           justify-content: space-between;
   gap: 25px;
+   Display: hidden:
 }
 
 .nav__icon {
@@ -54,7 +56,8 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  gap: 20px;
+  gap: 20px; 
+Display: hidden;
 }
 
 a {
@@ -63,7 +66,7 @@ a {
 
 .container-1 {
   height: 80vh;
-  background-image: url(/logistic-images/animated-2.jpg);
+  background-image: url(logistic-images/animated-2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   color: black;
@@ -183,7 +186,7 @@ input:placeholder-shown {
   font-family: 'Poppins', sans-serif;
   padding-left: 30px;
   color: black;
-  font-size: 18px;
+  font-size: 12px;
 }
 
 /**********container-2*****************/
