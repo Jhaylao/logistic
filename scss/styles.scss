@@ -17,6 +17,7 @@ body{
     box-sizing: border-box;
     padding: 25px;
     display: flex;
+    Gap:10px;
     flex-direction: row;
     justify-content: space-between;
     background-color: #f66b0e;
@@ -31,7 +32,8 @@ body{
         flex-direction: row;
         justify-content: space-between;
         gap: 25px;
-}
+       
+}   
 }
 
 
@@ -855,7 +857,7 @@ h4{
         height: 40px;
         padding-top: 100px;
         padding-right: 80px;
-        display: hidden;
+        display: none;
     }
     .menu-items{
         background-color: #a7a9ac;
@@ -868,13 +870,13 @@ h4{
     .container-1__header{
       flex-direction:row;
       height:2rem;
-      display: hidden;
+      display: none;
 
 
 
       &__logo{
           padding-top: 100px;
-          display: hidden;
+          display: none;
       }
     
     
@@ -891,7 +893,7 @@ h4{
               display: none;
           }
           &-3{
-              display:hidden;
+              display:none;
           }
       }
       
