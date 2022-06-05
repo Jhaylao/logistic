@@ -43,7 +43,7 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  gap: 15px;
+  gap: 25px;
 }
 
 .nav__icon {
@@ -54,7 +54,7 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  gap: 10px;
+  gap: 20px;
 }
 
 a {
